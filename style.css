@@ -1,0 +1,141 @@
+
+html {
+	height:100%;
+}
+
+
+body {
+	background: black;
+
+	background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.29, rgb(0,0,0)),
+    color-stop(0.7, rgb(0,0,0)),
+    color-stop(0.99, rgb(35,136,195))
+	);
+	background-image: -moz-linear-gradient(
+    center top,
+    rgb(0,0,0) 29%,
+    rgb(0,0,0) 70%,
+    rgb(35,136,195) 99%
+	);
+
+	font-family: Arial, sans-serif;
+	background-attachment: fixed;
+
+}
+
+h1 {
+color: white;
+font-family:"Helvetica Neue";
+padding-left: 20px;
+
+}
+
+p { 
+	color:white;
+	font-size: 14px;
+}
+
+.sampleInfo video {
+padding: 20px;
+
+
+}
+
+.editSample {
+
+
+}
+
+#videoUrl {
+
+padding-left: 10px;
+padding-top: 5px;
+
+}
+
+
+#sampleInputform1 {
+	position: relative;
+	padding-left: 50px;
+	border-width: 1px;
+	
+
+
+}
+.videoContainer {
+	padding: 20px;
+	border-width: 1px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	border-color: white;
+	font-size: 16px;
+	font-family: Arial, sans-serif;	
+	width: 500px;
+	
+}
+
+.videoContainertop {
+width: 640px;
+height: 60px;
+
+
+-webkit-border-top-left-radius:15px; /* top left corner */
+-webkit-border-top-right-radius:15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+
+
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, rgb(144,143,98)),
+    color-stop(0.24, rgb(0,0,0)),
+    color-stop(0, rgb(0,0,0))
+);
+background-image: -moz-linear-gradient(
+    center top,
+    rgb(144,143,98) 0%,
+    rgb(0,0,0) 50%,
+    rgb(0,0,0) 100%
+);
+
+}
+
+.videoContainertopLeft {
+
+
+}
+
+.videoIn {
+}
+
+.videoOut {
+}
+
+.videoContainer p{
+
+padding-left: 10px;
+
+}
+
+
+
+.videoPreview {	
+	position:relative;
+	width: 320;
+	right: 10px;
+;
+}
+
+.highlight1 {
+border-color: white;
+border-style: dashed;
+border-spacing: 2px;
+}

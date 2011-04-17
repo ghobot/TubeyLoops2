@@ -1,0 +1,11 @@
+<script src="jquery.min.js"></script>
+<input id="video_source"> </input>
+
+<p id="txt">Video Source</p>
+
+<script>
+$("#video_source").bind("blur", function(){
+	$video_input = $("#video_source").val();
+	$("#txt").html($video_input);
+	});
+</script>
